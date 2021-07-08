@@ -1,0 +1,135 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial;
+    background-color: #3d2d2d;
+    
+}
+
+nav, .header-main, ul {
+    min-width: 500px;
+    display:flex;
+    align-items: center;
+    align-content: center;
+}
+nav.header-login{
+    min-width: 500px;
+    align-items: center;
+    align-content: center;
+
+}
+
+
+nav {
+    text-transform: uppercase;
+    justify-content: space-between;
+    padding: 0.5rem;
+    background-color: #3d2d2d;
+}
+
+nav a {
+    margin-left: 1rem;
+    margin-right: 1rem;
+    margin-top: 30px;
+    text-decoration: none;
+    color: rgb(255, 249, 249);
+}
+
+button {
+    background-color: #25a3dd;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 40%;
+    text-transform: uppercase;
+    box-sizing: 20px,50px;
+}
+
+button:active {
+    background-color: rgb(80, 80, 80);
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+
+ul {
+    list-style-type: none;
+}
+
+input[type=text], input[type=password] {
+    height: 2rem;
+    width: 11rem;
+    padding: 0.3rem;
+    background-color: rgb(245, 245, 245);
+    border: none;
+    border-radius: 0.3rem;
+    margin-right: 0.5rem;
+}
+
+main {
+    margin: 1rem auto;
+    padding: 1rem;
+    color: #fdfdfd;
+    background-color: #000000;
+    text-align: center;
+    margin-top: 50px;
+    font-size: 1.5rem;
+    border-radius: 0.2rem;
+    box-sizing:content-box;
+}
+h1 {text-align: center;
+    font-size: 40px;
+    margin-top: 50px;
+    
+    color: white;
+}
+
+
+.error-text {
+    text-align: center;
+    color: red;
+    font-size: 1.3rem;
+}
+
+.success {
+    color: #0ecc37;
+    font-size: 1.3rem;
+    margin-left: center;
+    text-align: center;
+}
+.emptyfields, .invaliduid, .invalidemail, .passwordsnotmatch, .checksqlerrors, .takenUsernameORtakenEmail, .checksqlerrors2, . {
+    color: #e90707;
+    font-size: 1.3rem;
+    margin-left: center;
+    text-align: center;
+
+}
+
+
+.signup {
+
+text-align: center;
+align-items: center;
+margin-left:center;
+
+}
+
+
+.header-signup{
+    margin-right: 30px;
+}
+
+.reset-pw {
+    align-items: center;
+    align-self: center;
+    align-content: center;
+
+}
