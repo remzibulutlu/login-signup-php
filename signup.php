@@ -46,7 +46,7 @@
         <input type="password" name="password2" placeholder="Confirm password"><br><br>
         <button type="submit" name="signup-submit">Signup</button>
     </form>
-    <!--<a href="">Forgot Your Password?</a>*-->
+    
     </div>
 </main>
 ?>
